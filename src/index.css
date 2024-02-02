@@ -1,0 +1,91 @@
+/* Common Styles */
+.borderRound {
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .fontSize {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cardContainer {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .cards {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(166, 157, 184);
+  }
+  
+  .notes {
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .imgTitle {
+    justify-content: space-between;
+  }
+  
+  .contentCards {
+    display: flex !important;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(166, 157, 184);
+    height: 200px;
+    overflow: auto;
+    margin-bottom: 20px;
+  }
+  
+  .images {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .edit {
+    margin: 50px;
+    padding: 10px;
+    background-color: #e3e8f8;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 475px) {
+    .fontSize {
+      font-size: 24px;
+    }
+    .cardContainer {
+      max-height: 500px;
+      flex-direction: column;
+    }
+    .cards {
+      border-radius: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .fontSize {
+      font-size: 28px;
+    }
+    .cardContainer {
+      max-height: 600px;
+      flex-direction: column;
+    }
+    .cards {
+      border-radius: 25px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .fontSize {
+      font-size: 32px;
+    }
+    .cardContainer {
+      max-height: 700px;
+    }
+    .cards {
+      border-radius: 30px;
+    }
+  }
+  
